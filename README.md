@@ -148,10 +148,10 @@ This journey focuses on demonstrating:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/24-week-quant-trader.git
+git clone https://github.com/yourusername/24-week-quant-trader-journey.git
 
 # Navigate to project
-cd 24-week-quant-trader
+cd 24-week-quant-trader-journey
 
 # Check current progress
 cat Learning_Resources/PROGRESS_TRACKER.md
