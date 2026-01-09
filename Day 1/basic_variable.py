@@ -45,4 +45,23 @@ print(f"Profit Percentage: {profit_percentage:.2f}%")
 print(f"Is Profitable: {is_profitable}")
 
 # print future profit and future profit percentage
-print(f"If the price increased by $10/share, the future profit would be ${future_profit:.2f} and the percentage gain in (%) would be {future_profit_percentage:.2f}%")
+print(f"\nIf the price increased by $10/share...")
+print(f"The future profit would be ${future_profit:.2f}")
+print(f"The percentage gain in (%) would be {future_profit_percentage:.2f}%")
+
+# Function to encapsulate the logic for reuse in tests
+def calculate_trading_metrics(buying_price, current_price, shares):
+    """Calculates P&L metrics for a trade."""
+    total_investment = buying_price * shares
+    current_value = current_price * shares
+    current_profit = current_value - total_investment
+
+    is_profitable = current_profit > 0
+    profit_percentage = (current_profit / total_investment) * 100 if total_investment != 0 else 0
+
+    return {
+        "total_investment": total_investment,
+        "current_profit": current_profit,
+        "profit_percentage": profit_percentage,
+        "is_profitable": is_profitable
+    }
