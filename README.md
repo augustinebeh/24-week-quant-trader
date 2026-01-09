@@ -1,6 +1,8 @@
 # 24-Week Quant Trader Learning Journey 📈
 
-A comprehensive self-learning curriculum to build a portfolio strong enough to acquire a quantitative trader position without formal certifications.
+A structured, self-accelerated roadmap to mastering Quantitative Finance and Algorithmic Trading.
+
+**Learning Partner:** Claude AI (Anthropic)
 
 ## 🎯 Project Goal
 
