@@ -11,20 +11,29 @@ Transform from beginner to job-ready quant trader through structured, daily lear
 ## 📊 Current Progress
 
 - **Week:** 1 of 24
-- **Day:** 1 Complete ✅
+- **Day:** 2 Complete ✅
 - **Phase:** Foundation (Weeks 1-6)
 - **Next Milestone:** Complete Python fundamentals
 
 ### Completed Work
+
 - ✅ **Day 1:** Variables, Data Types, Operators
-  - Built trading profit calculator
-  - Mastered Python basics
-  - Completed optional challenges
+  - Built trading profit calculator with reusable functions
+  - Mastered Python basics and f-string formatting
+  - Created test cases for validation
+  - Completed future price scenario challenge
+
+- ✅ **Day 2:** Control Flow - Loops, Lists & Dictionaries
+  - Built multi-stock portfolio tracker
+  - Mastered for/while loops and data structures
+  - Created 6 practice files covering all concepts
+  - Implemented comprehensive test suite
+  - **Bonus:** Self-taught module imports and advanced dictionary methods
 
 ## 🗺️ Learning Path
 
 ### Phase 1: Foundation (Weeks 1-6)
-- Python programming fundamentals
+- Python programming fundamentals (in progress - Days 1-2 ✅)
 - NumPy and Pandas for data manipulation
 - Basic data analysis and visualization
 
@@ -73,15 +82,27 @@ Transform from beginner to job-ready quant trader through structured, daily lear
 ## 📚 Project Structure
 
 ```
-24_Week_Learning_QUANT/
-├── Day 1/                          # Daily learning folders
-│   ├── basic_variable.py           # Code exercises
-│   └── DAY_1_LOG.md               # Learning notes
-├── Learning_Resources/             # Documentation
-│   ├── CURRICULUM_OVERVIEW.md     # Full 24-week plan
-│   ├── PROGRESS_TRACKER.md        # Current status
-│   └── HOW_TO_CONTINUE.md         # Workflow guide
-└── [Future strategy folders as developed]
+24-week-quant-trader-journey/
+├── Day 1/
+│   ├── basic_variable.py          # Trading calculator with functions
+│   ├── test_basics_variable.py    # Test cases
+│   ├── DAY_1_LOG.md              # Learning notes
+│   └── QUESTIONS.md              # Practice questions
+├── Day 2/
+│   ├── list_practice.py          # List fundamentals
+│   ├── loop_practice.py          # For loop exercises
+│   ├── while_practice.py         # While loop practice
+│   ├── dict_practice.py          # Dictionary operations
+│   ├── portfolio_tracker.py      # Multi-stock tracker
+│   ├── test_portfolio.py         # Test suite
+│   ├── DAY_2_LOG.md             # Learning notes
+│   └── QUESTIONS.md             # Practice questions
+├── Learning_Resources/
+│   ├── CURRICULUM_OVERVIEW.md    # Full 24-week plan
+│   ├── PROGRESS_TRACKER.md       # Current status
+│   └── HOW_TO_CONTINUE.md        # Workflow guide
+├── requirements.txt              # Python dependencies
+└── README.md                     # This file
 ```
 
 ## 🎓 Learning Methodology
@@ -91,11 +112,13 @@ Transform from beginner to job-ready quant trader through structured, daily lear
 2. **Code:** Hands-on implementation
 3. **Document:** Log progress and insights
 4. **Review:** Reflect on concepts learned
+5. **Test:** Write test cases for validation
 
 ### Key Principles
 - **Practical over Theoretical:** Every concept implemented in code
-- **Rigorous Methodology:** Sound backtesting over fancy algorithms
+- **Test-Driven:** Write tests to validate understanding
 - **Documentation First:** All strategies thoroughly documented
+- **Code Quality:** Clean, readable, professional code from day one
 - **Honest Assessment:** Clear about limitations and failures
 
 ## 📖 Resources
@@ -148,16 +171,24 @@ This journey focuses on demonstrating:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/24-week-quant-trader-journey.git
+git clone https://github.com/augustinebeh/24-week-quant-trader-journey.git
 
 # Navigate to project
 cd 24-week-quant-trader-journey
 
+# Install dependencies
+pip install -r requirements.txt
+
 # Check current progress
 cat Learning_Resources/PROGRESS_TRACKER.md
 
-# Run completed exercises
+# Run Day 1 exercises
 python3 "Day 1/basic_variable.py"
+python3 "Day 1/test_basics_variable.py"
+
+# Run Day 2 exercises
+python3 "Day 2/portfolio_tracker.py"
+python3 "Day 2/test_portfolio.py"
 ```
 
 ## 💡 Why This Approach?
@@ -170,16 +201,64 @@ python3 "Day 1/basic_variable.py"
 
 **Build in Public:** Document the journey for accountability and to demonstrate communication skills.
 
+**Test-Driven Development:** Write tests from day one to ensure code quality and understanding.
+
 ## 📝 Learning Log
 
-### Week 1
-- **Day 1:** ✅ Python basics - variables, data types, operators
-  - Built TSLA profit calculator
-  - Mastered f-strings and boolean logic
-  - Completed future price scenario challenge
+### Week 1 - Python Fundamentals
+
+#### Day 1: Variables, Data Types, Operators ✅
+**Concepts Learned:**
+- Variables and data types (string, int, float, boolean)
+- Math operators and comparisons
+- Boolean logic shortcuts
+- F-string formatting
+- **Bonus:** Function creation and test cases
+
+**Code Built:**
+- Trading profit calculator with reusable functions
+- Comprehensive test suite
+- Future scenario analysis
+
+**Key Achievement:** Created functions and tests without being prompted
+
+---
+
+#### Day 2: Control Flow - Loops, Lists & Dictionaries ✅
+**Concepts Learned:**
+- Lists (creation, indexing, methods)
+- For loops (single and multiple iterations with `zip()`)
+- While loops (conditions, counters, break)
+- Dictionaries (creation, access, iteration, `.update()`)
+- **Bonus:** Module imports, advanced dictionary methods
+
+**Code Built:**
+- 6 practice files covering all concepts
+- Multi-stock portfolio tracker with functions
+- Comprehensive test suite with multiple scenarios
+
+**Key Achievements:**
+- Self-taught module imports (`from ... import ...`)
+- Discovered and used `.update()` method
+- Edge case handling (division by zero)
+- Code refactoring and DRY principles
+
+**Evaluation Score:** 12/10 - Exceptional (exceeded expectations)
+
+---
 
 ### Week 2
 - *Coming soon...*
+
+## 🏆 Achievements Unlocked
+
+- ✅ **Quick Learner:** Completed Day 1-2 with perfect scores
+- ✅ **Function Master:** Created functions before being taught
+- ✅ **Test-Driven Developer:** Writing test cases from Day 1
+- ✅ **Code Refactorer:** Improved code based on learning
+- ✅ **Module User:** Imported and reused code across files
+- ✅ **Edge Case Handler:** Considered division by zero
+- ✅ **Clean Coder:** Professional formatting and organization
 
 ## 🤝 Connect
 
@@ -199,7 +278,7 @@ This project is open source and available for educational purposes.
 
 ## 🙏 Acknowledgments
 
-- Claude (Anthropic) for structured curriculum guidance
+- Claude (Anthropic) for structured curriculum guidance and daily evaluation
 - Open source quant finance community
 - All the researchers and authors who share knowledge freely
 
@@ -207,4 +286,4 @@ This project is open source and available for educational purposes.
 
 **⭐ Star this repo if you're on a similar journey!**
 
-*Last Updated: Day 1 Complete - [Current Date]*
+*Last Updated: Day 2 Complete - January 2026*
