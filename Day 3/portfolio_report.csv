@@ -1,0 +1,6 @@
+symbol,buying_price,current_price,shares,investment,current_value,current_profit,profit_percentage,is_profitable
+TSLA,$425.00,$435.80,100,$42500.00,$43580.00,1080.0,2.54%,True
+AAPL,$150.00,$165.50,50,$7500.00,$8275.00,775.0,10.33%,True
+NVDA,$500.00,$520.30,75,$37500.00,$39022.50,1522.5,4.06%,True
+MSFT,$380.00,$395.20,60,$22800.00,$23712.00,912.0,4.00%,True
+GOOGL,$140.00,$142.50,80,$11200.00,$11400.00,200.0,1.79%,True

@@ -1,0 +1,7 @@
+=============================
+PORTFOLIO SUMMARY REPORT
+=============================
+Total Investment:  $121500.00
+Current Value:     $125989.50
+Net Profit/Loss:   $4489.50
+Profit/Loss(%):    3.70%
